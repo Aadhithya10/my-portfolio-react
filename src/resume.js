@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 
 function toggleMenu() {
     const nav = document.getElementById("navlinks");
-    if (nav) nav.classNameList.toggle("show");
+    nav.classList.toggle("show");
+
     }
 function Resume() {
     return (
