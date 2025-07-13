@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color:#3A6EA5;  
+  color: #1A1A1A;
+  line-height: 1.6;
+}
+
+
+.nav-bar {
+  background-color: #3A6EA5;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+  color: white;
+}
+
+.nav-links a,
+.home a,
+.hamburger {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.nav-links a:hover,
+.home a:hover {
+  text-decoration: underline;
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+
+.intro {
+  background-color: #FFFFFF; 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro p {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #444;
+}
+
+.intro h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #1A1A1A;
+}
+
+b {
+  color: #1A1A1A;
+}
+
+/* === Intro content layout === */
+.intro-con {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.intro-con img {
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 250px;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .intro-con {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+}
+
+/* === Blockquote === */
+.intro blockquote {
+  margin: 30px auto 0;
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #C3D3E2;
+  padding-left: 16px;
+  max-width: 600px;
+  text-align: center;
+}
