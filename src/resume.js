@@ -1,6 +1,7 @@
 import React from "react";
-import './resume.css';
 import { Link } from 'react-router-dom';
+import './resume.css';
+
 
 
 function toggleMenu() {

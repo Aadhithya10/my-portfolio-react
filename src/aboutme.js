@@ -1,6 +1,7 @@
 import React from 'react';
-import './aboutme.css';
 import { Link } from 'react-router-dom';
+import './aboutme.css';
+
 
 function toggleMenu() {
   const nav = document.getElementById("navlinks");

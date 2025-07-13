@@ -1,10 +1,11 @@
 import React from "react";
-import './resume.css';  // optional: create contact.css if you prefer
 import { Link } from 'react-router-dom';
+import './resume.css'; 
+
 
 function toggleMenu() {
   const nav = document.getElementById("navlinks");
-  if (nav) nav.classList.toggle("show");  // fixed: classList not classNameList
+  if (nav) nav.classList.toggle("show");  
 }
 
 function Contact() {

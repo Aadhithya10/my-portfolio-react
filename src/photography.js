@@ -1,6 +1,7 @@
-import React from "react";  
+import React from "react"; 
+import { Link } from 'react-router-dom'; 
 import './photography.css';
-import { Link } from 'react-router-dom';
+
 
 
 function toggleMenu() {

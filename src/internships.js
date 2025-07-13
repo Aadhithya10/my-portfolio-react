@@ -1,6 +1,7 @@
 import React from 'react';
-import './internships.css';
 import { Link } from 'react-router-dom';
+import './internships.css';
+
 
 
 function toggleMenu() {
