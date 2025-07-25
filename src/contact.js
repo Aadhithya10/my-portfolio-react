@@ -41,7 +41,7 @@ function Contact() {
             <p>💻 GitHub: <a href="https://github.com/Aadhithya10" target="_blank" rel="noopener noreferrer">View My Profile</a></p>
           </div>
           <div className="time">
-            <p>👨‍💻 HacherRank: <a href="https://www.hackerrank.com/profile/aadhithyabharat1" target="_blank" rel="noopener noreferrer">View My Profile</a></p>
+            <p>👨‍💻 HackerRank: <a href="https://www.hackerrank.com/profile/aadhithyabharat1" target="_blank" rel="noopener noreferrer">View My Profile</a></p>
           </div>
           
           <blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
