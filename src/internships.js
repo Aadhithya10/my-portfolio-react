@@ -26,7 +26,7 @@ function Internships() {
       </div>
 
       <div className="timeline">
-        <h2>Internships</h2>
+         <p><b><h1>Internships</h1></b></p>
         <div className="time">
            <p><b>Trusty Bytes | Full Stack Developer | May 2025- June 2025</b></p>
             <p>

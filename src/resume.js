@@ -18,7 +18,6 @@ function Resume() {
                 </div>
                 <button className="hamburger" onClick={() => toggleMenu()}>☰</button>
                 <div className="nav-links" id="navlinks">
-                    <Link to="/">Home</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/internships">Internships</Link>
                     <Link to="/resume">Resume</Link>
@@ -79,6 +78,11 @@ function Resume() {
                     <li>
                         <p><b>Made an Online Bakery Website </b></p>
                         <p>HTML, CSS, JavaScript</p>
+                    </li>
+                     <li>
+                        <p><b>Developing an Attendance Management System</b></p>
+                        <p>ReactJS, MongoDB, Tailwind CSS</p>
+                         <button className="button" onClick={()=>window.open('https://github.com/Acid-Rebel/Presence360', '_blank')}>View My progress on Github</button>
                     </li>
                 </ul>
                  <br/>

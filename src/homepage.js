@@ -23,7 +23,7 @@ function Homepage() {
       </div>
 
       <div className="intro">
-        <h1><b> Introduction:</b></h1>
+         <p><b><h1>Introduction</h1></b></p>
         <br />
         <div className="intro-con">
           <img src="sitting.jpg" alt="Aadhithya Bharathi" style={{ width: "250px", height: "340px" }} />

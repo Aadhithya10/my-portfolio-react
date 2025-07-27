@@ -29,7 +29,7 @@ function Contact() {
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}
       >
         <div style={{ flex: 1, minWidth: '250px' }}>
-          <h2>Contact Me</h2>
+           <p><b><h1>Contact Me</h1></b></p>
           <p>If you have any questions or would like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
           <div className="time">
             <p>📧 Email: <a href="mailto:aadhithyabharathi10@gmail.com">aadhithyabharathi10@gmail.com</a></p>

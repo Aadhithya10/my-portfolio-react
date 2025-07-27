@@ -27,7 +27,7 @@ function AboutMe() {
       </div>
 
       <div className="timeline">
-        <h2>About Me</h2>
+         <p><b><h1>About Me</h1></b></p>
         <div className="time" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
           <div>
             <h2>Personal Details</h2>
@@ -37,7 +37,6 @@ function AboutMe() {
               <li><b>Interests:</b> Blending tech & creativity; building user-friendly digital experiences</li>
             </ul>
           </div>
-          <img src="standing.jpg" alt="Aadhithya holding a camera" style={{ width: '300px', height: 'auto', borderRadius: '12px', marginLeft: '80px', marginTop: '10px' }} />
         </div>
 
         <div className="time">
