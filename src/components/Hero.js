@@ -76,8 +76,8 @@ function Hero() {
                             </span>
                         </motion.p>
                         <motion.p variants={itemVariants} className="hero-subtitle">
-                            Computer Science undergrad at Amrita Vishwa Vidyapeetham &amp; IIT Madras Diploma in Data Science.
-                            Passionate about full-stack development, machine learning, and building systems that matter.
+                            Final-year CS undergrad at Amrita Vishwa Vidyapeetham (CGPA 9.01/10) &amp; IIT Madras Diploma in Data Science.
+                            Experienced in distributed systems, Kubernetes observability, end-to-end ML pipelines, and full-stack development.
                         </motion.p>
                         <motion.div variants={itemVariants} className="hero-links" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                             {links.map((link, i) => (

@@ -3,8 +3,12 @@ import { motion } from 'framer-motion';
 
 const certifications = [
     {
-        title: 'Deloitte Australia — Data Analytics Job Simulation',
-        desc: 'Completed a Forage simulation focused on business insights and forensic technology. Built an interactive Tableau dashboard to visualize downtime by factory and device type. Used Excel to classify data and derive actionable insights.',
+        title: 'Deloitte Australia — Data Analytics Job Simulation (Forage)',
+        desc: 'Completed simulation focused on business insights and forensic technology. Built an interactive Tableau dashboard to visualize downtime by factory and device type, classifying data to derive actionable operational insights.',
+    },
+    {
+        title: 'Infosys Springboard — Introduction to Generative AI, NLP & Prompt Engineering',
+        desc: 'Completed certifications covering fundamental LLM architectures, natural language processing techniques, and structured prompt engineering methodologies.',
     },
 ];
 

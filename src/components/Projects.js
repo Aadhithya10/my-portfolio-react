@@ -3,48 +3,57 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
-        name: 'Smart Cafeteria Management System',
-        tag: 'Full Stack · ML',
+        name: 'EdgeMind — Multi-Agent AI for Industrial Infrastructure Monitoring',
+        tag: 'Multi-Agent AI · Kubernetes',
         points: [
-            'Built a microservices-based platform using Go (Gin), React.js, and Python (Flask), deployed with Docker.',
-            'Developed a Random Forest model (81.5% accuracy) for demand forecasting using real-time data.',
-            'Implemented queue management, secure authentication (JWT + 2FA), and role-based dashboards.',
-            'Added analytics for food waste tracking and booking optimization.',
+            'Built for the ABB Hackathon (Top 6 Finalist out of 1,600+ teams nationwide). Developed a multi-agent AI system monitoring industrial Kubernetes workloads using Prometheus, detecting cascading failures, and performing root cause analysis with DMD predictive analytics.',
+            'Designed and developed the mobile application in React Native, converting a six-page real-time dashboard into a mobile-first experience with live WebSocket updates, AI-generated root cause analysis, and predictive failure alerts.',
         ],
-        tools: ['Go', 'React.js', 'Python', 'PostgreSQL', 'Docker'],
+        tools: ['React Native', 'Kubernetes', 'Prometheus', 'LLMs', 'WebSocket', 'Python'],
+        link: 'https://github.com/Aadhithya10',
+    },
+    {
+        name: 'Smart Cafeteria Management System',
+        tag: 'Full Stack · Microservices',
+        points: [
+            'Designed and deployed a containerized microservices architecture for real-time cafeteria demand forecasting with JWT authentication and two-factor authentication (2FA).',
+            'Trained a Random Forest model on 1,800+ records, achieving ~81.5% forecasting accuracy while maintaining uninterrupted service through a rule-based fallback engine.',
+            'Implemented queue management, role-based dashboards, and analytics for food waste tracking and booking optimization.',
+        ],
+        tools: ['Go', 'Flask', 'React', 'Docker', 'JWT', 'PostgreSQL'],
         link: 'https://github.com/Aadhithya10',
     },
     {
         name: 'FX Decision Recommendation System',
-        tag: 'Analytics · Forecasting',
+        tag: 'Analytics · FinTech',
         points: [
-            'Built a full-stack FX decision system to analyze currency exposure and generate hedge/spot recommendations.',
-            'Developed forecasting models using Facebook Prophet for short-term exchange rate prediction.',
-            'Implemented risk analytics using volatility, Z-score anomaly detection, and Value-at-Risk (VaR).',
-            'Designed a React dashboard for real-time risk visualization and decision support.',
+            'Developed an FX analytics platform processing over 2,500 data points per currency across 10 years to generate accurate 30-day exchange-rate forecasts.',
+            'Implemented a Value-at-Risk (VaR) engine recommending hold, partial conversion, or full conversion strategies for corporate treasury risk management.',
+            'Designed a React dashboard for real-time risk visualization and exposure management.',
         ],
-        tools: ['Python', 'Flask', 'Pandas', 'NumPy', 'Prophet', 'React'],
+        tools: ['Python', 'Prophet', 'Pandas', 'Flask', 'React', 'REST API'],
+        link: 'https://github.com/Aadhithya10',
+    },
+    {
+        name: 'Pharmacy Inventory Optimization & Demand Forecasting',
+        tag: 'Time-Series · IIT Madras Capstone',
+        points: [
+            'Applied ABC and XYZ inventory classification to develop a nine-cell procurement control matrix for a live pharmacy.',
+            'Compared multiple forecasting models, with a two-month Simple Moving Average achieving a MAPE of 2.2% on the highest-selling product.',
+            'Identified approximately ₹52,838 in expiry losses and ₹2,695 in stock-out losses, proposing an EOQ/JIT procurement strategy to optimize inventory costs.',
+        ],
+        tools: ['Python', 'Pandas', 'NumPy', 'Time-Series', 'Optimization'],
         link: 'https://github.com/Aadhithya10',
     },
     {
         name: 'AI-Driven Multi-Hazard Disaster Monitoring',
-        tag: 'IoT · ML',
+        tag: 'IoT · Edge ML',
         points: [
             'Built an STM32-based system integrating gas, flame, and vibration sensors for real-time hazard detection.',
             'Implemented communication protocols (ADC, I2C, UART) with Bluetooth alerts using embedded C.',
-            'Developed a Random Forest model and deployed inference via FastAPI.',
-            'Created a React dashboard for live alerts and hazard visualization.',
+            'Developed a Random Forest model and deployed inference via FastAPI with a React live dashboard.',
         ],
-        tools: ['STM32', 'Embedded C', 'Python', 'scikit-learn', 'FastAPI', 'React'],
-        link: 'https://github.com/Aadhithya10',
-    },
-    {
-        name: 'Innovora — Collaboration Platform',
-        tag: 'MERN',
-        points: [
-            'Developed a platform enabling students and mentors to collaborate, share projects, and publish research.',
-        ],
-        tools: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+        tools: ['STM32', 'Embedded C', 'Python', 'FastAPI', 'React'],
         link: 'https://github.com/Aadhithya10',
     },
     {
@@ -52,19 +61,10 @@ const projects = [
         tag: 'Compiler Design',
         points: [
             'Built a compiler front-end for Tamil sentences implementing lexical, syntax, and semantic analysis using ANTLR4.',
-            'Developed both a Java-based compiler pipeline and a browser-based JavaScript implementation with real-time validation.',
+            'Developed both a Java-based compiler pipeline and a browser-based JavaScript implementation with real-time grammar validation.',
         ],
         tools: ['Java', 'ANTLR4', 'JavaScript', 'HTML', 'CSS'],
         link: 'https://github.com/Aadhithya10',
-    },
-    {
-        name: 'Cinema Audience Forecasting',
-        tag: 'Kaggle · IIT Madras',
-        points: [
-            'Built a forecasting system to predict daily cinema audience using POS and booking data.',
-            'Performed feature engineering and trained regression-based time-series models.',
-        ],
-        tools: ['Python', 'pandas', 'NumPy', 'scikit-learn'],
     },
 ];
 

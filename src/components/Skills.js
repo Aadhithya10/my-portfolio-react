@@ -4,27 +4,39 @@ import { motion } from 'framer-motion';
 const categories = [
     {
         title: 'Languages',
-        items: ['Python', 'C', 'Java', 'JavaScript'],
+        items: ['Python', 'C#', 'JavaScript', 'Java', 'Go', 'C', 'SQL'],
     },
     {
-        title: 'Web',
-        items: ['HTML', 'CSS', 'React.js', 'Node.js', 'Express.js', 'Flask', 'FastAPI'],
+        title: 'Backend & APIs',
+        items: ['.NET (ASP.NET Core)', 'REST APIs', 'FastAPI', 'Flask', 'WebSockets', 'Microservices', 'JWT', '2FA'],
     },
     {
-        title: 'Databases',
-        items: ['MySQL', 'MongoDB', 'PostgreSQL'],
+        title: 'Messaging & Observability',
+        items: ['MQTT', 'AMQP', 'OpenTelemetry', 'Grafana', 'Prometheus'],
     },
     {
-        title: 'Data & ML',
-        items: ['scikit-learn', 'pandas', 'NumPy', 'matplotlib', 'Tableau', 'Prophet'],
+        title: 'Cloud & DevOps',
+        items: ['Kubernetes (k3s/k3d)', 'Docker', 'Helm', 'Azure DevOps', 'Azure Pipelines', 'Git', 'Redis'],
     },
     {
-        title: 'Systems & Tools',
-        items: ['Docker', 'Git', 'STM32', 'Embedded C', 'ANTLR4'],
+        title: 'Testing & QA',
+        items: ['pytest', 'Playwright', 'Allure', 'Integration Testing', 'Test Automation'],
     },
     {
-        title: 'Soft Skills',
-        items: ['Communication', 'Teamwork', 'Problem Solving', 'Leadership'],
+        title: 'AI / ML',
+        items: ['Scikit-learn', 'Pandas', 'NumPy', 'Prophet', 'LSTM', 'CNN', 'YOLO', 'LLM APIs', 'Agentic Workflows'],
+    },
+    {
+        title: 'Web & Mobile',
+        items: ['React', 'React Native (Expo)', 'Node.js', 'Express.js', 'HTML5', 'CSS3'],
+    },
+    {
+        title: 'Databases & Viz',
+        items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Tableau', 'Matplotlib', 'Seaborn'],
+    },
+    {
+        title: 'Professional',
+        items: ['System Design', 'Agile / Scrum', 'Team Leadership', 'Technical Writing'],
     },
 ];
 

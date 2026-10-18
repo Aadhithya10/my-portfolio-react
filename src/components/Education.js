@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 const education = [
     {
         school: 'Amrita Vishwa Vidyapeetham',
-        degree: 'B.Tech in Computer Science',
-        date: 'Aug 2023 – Present',
-        gpa: 'CGPA: 9.0 / 10',
+        degree: 'B.Tech in Computer Science Engineering',
+        date: '2023 – 2027',
+        gpa: 'CGPA: 9.01 / 10',
     },
     {
-        school: 'IIT Madras',
+        school: 'Indian Institute of Technology (IIT) Madras',
         degree: 'Diploma in Data Science',
-        date: '2023 – Present',
+        date: '2023 – 2026',
     },
     {
         school: 'Velammal Bodhi Campus',

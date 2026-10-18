@@ -3,36 +3,51 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
+        role: 'AI Developer Intern',
+        company: 'ABB – Marine Team',
+        date: 'Jul 2026 – Oct 2026',
+        points: [
+            'Added API versioning to backend services (Messaging Web API) in .NET, ensuring seamless client backwards compatibility with clear retirement errors and deprecation warnings.',
+            'Debugged a race condition in edge-to-cloud messaging flow (MQTT/AMQP); eliminated incorrect resend logic and implemented automated retries (10 attempts, 10s backoff) with failure notifications.',
+            'Integrated end-to-end distributed monitoring using OpenTelemetry and designed Grafana dashboards tracking request volume, latency, and error rates with trace ID correlation.',
+            'Authored Python/pytest automated tests simulating Kubernetes pod outages for disaster recovery validation, and scaled Playwright UI test suites across environments.',
+        ],
+    },
+    {
         role: 'Full Stack Developer Intern',
         company: 'Trusty Bytes',
-        date: 'May 2025 – June 2025',
+        date: 'May 2025 – Jun 2025',
         points: [
-            'Developed the front-end of a demand-supply mobile application using React Native.',
-            'Built responsive and user-friendly interfaces optimized for both Android and iOS.',
-            'Strengthened skills in mobile UI development, component-based architecture, and cross-platform design.',
+            'Engineered 11 production-ready screens in React Native for Android & iOS for a demand-supply workflow application, delivering zero rollback post-deployment across both platforms.',
+            'Architected a reusable component library that reduced UI duplication by an estimated 30%, cutting iteration time for the 5-person engineering team.',
+            'Operated within an agile sprint cycle, shipping across two consecutive sprints with daily standups and PR-based code reviews.',
         ],
         certificate: '/certificate.pdf',
     },
     {
-        role: 'Photo Journalist',
+        role: 'Photojournalist',
         company: 'Ananda Vikatan',
-        date: 'Aug 2024 – Aug 2025',
+        date: '2024 – 2025',
         points: [
-            'Published photo stories in one of India\'s most respected Tamil magazines.',
-            'Refined eye for detail and ability to communicate ideas through visual storytelling.',
+            'Published documentary photo stories in one of India\'s most respected Tamil magazines.',
+            'Refined eye for detail, cultural narrative synthesis, and visual storytelling.',
         ],
     },
     {
         role: 'Editor, ASCII Newsletter',
         company: 'Amrita Vishwa Vidyapeetham',
-        date: 'Jan 2024 – Present',
+        date: '2024 – Present',
         points: [
-            'Contributed to content curation and editing of the technical newsletter, improving readability and engagement among student readers.',
+            'Curate and edit technical content for a student audience, driving clarity and engagement on CS and AI topics.',
         ],
     },
 ];
 
 const competitions = [
+    {
+        name: 'Top 6 Finalist — ABB Accelerator 2026',
+        desc: 'Selected among Top 6 teams from 1,600+ teams, 14,000+ participants, and 300+ colleges nationwide. Presented EdgeMind, an AI-powered Kubernetes observability and predictive monitoring solution, at the ABB Innovation Centre, Bengaluru.',
+    },
     {
         name: 'Smart India Hackathon (SIH)',
         desc: 'Participated in SIH, contributing innovative solutions as part of a team.',

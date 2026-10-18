@@ -30,30 +30,28 @@ function About() {
 
                     <div className="about-text">
                         <motion.p variants={childVariants} className="about-intro">
-                            Hello, I'm <strong>Aadhithya Bharathi</strong> — a Computer Science undergraduate
-                            with a passion for building web experiences and telling stories through code and creativity.
+                            Hello, I'm <strong>Aadhithya Bharathi</strong> — a final-year Computer Science undergraduate
+                            at Amrita Vishwa Vidyapeetham (CGPA 9.01/10) pursuing a parallel Diploma in Data Science from IIT Madras.
                         </motion.p>
                         <motion.p variants={childVariants} className="about-body">
-                            I specialize in full-stack web development, with a strong interest in designing intuitive,
-                            scalable, and responsive web applications. I enjoy working across both frontend and backend
-                            stacks — turning ideas into interactive digital products that serve real-world users.
+                            I have hands-on experience building production-grade full-stack, machine learning, and distributed systems.
+                            Proficient in end-to-end ML pipelines, Kubernetes-based observability, REST microservices, and GenAI tooling.
+                            I have published applied AI research and delivered cross-platform mobile applications in live agile environments.
                         </motion.p>
                         <motion.p variants={childVariants} className="about-body">
-                            Beyond programming, I'm also a visual storyteller. My interest in photography has led me
-                            to publish work in <strong>Ananda Vikatan</strong>, where I've captured moments that blend
-                            culture, emotion, and narrative. This creative background complements my approach to
-                            development — where user experience, design, and functionality go hand in hand.
+                            Beyond engineering, I am a visual storyteller. As a photojournalist published in <strong>Ananda Vikatan</strong>,
+                            I've captured stories blending culture and narrative. This creative background informs my engineering philosophy —
+                            where robust architecture, intuitive user experience, and purposeful design intersect.
                         </motion.p>
                         <motion.p variants={childVariants} className="about-body">
-                            I believe in continuous learning, collaborative growth, and using technology as a tool
-                            for positive impact.
+                            Seeking roles in Software Engineering, AI/ML Engineering, or Data Analytics where I can contribute technical depth from day one.
                         </motion.p>
 
                         <div className="about-details" style={{ marginTop: '32px' }}>
                             {[
-                                { label: 'Education', value: 'CS Undergrad, Amrita Vishwa Vidyapeetham' },
-                                { label: 'Interests', value: 'Blending tech & creativity; building user-friendly digital experiences' },
-                                { label: 'Skills', value: 'Problem solving, fast learner, effective communication' }
+                                { label: 'Education', value: 'B.Tech CSE, Amrita Vishwa Vidyapeetham (CGPA 9.01) | IIT Madras Data Science' },
+                                { label: 'Focus Areas', value: 'Distributed Systems, Kubernetes Observability, End-to-End ML, Microservices' },
+                                { label: 'Key Strengths', value: 'System Design, Problem Solving, Agile Delivery, Collaborative Leadership' }
                             ].map((detail, index) => (
                                 <motion.div
                                     className="about-detail"

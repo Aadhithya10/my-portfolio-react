@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Temporary scripts
+update_portfolio.py
+temp_diff.txt
+
+# Resume (kept private, do not push)
+Dithu_Tech.pdf
+public/Dithu_Tech.pdf
