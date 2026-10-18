@@ -76,7 +76,7 @@ function Contact() {
                         transition={{ delay: 0.6 }}
                     >
                         <motion.a
-                            href="/Dithu_Tech.pdf"
+                            href={`${process.env.PUBLIC_URL}/Dithu_Tech.pdf`}
                             download="Dithu_Tech.pdf"
                             className="cta-button"
                             whileHover={{ scale: 1.05 }}

@@ -169,7 +169,7 @@ function Resume() {
                 </div>
 
                 <br /><br />
-                <a href="/Dithu_Tech.pdf" download="Dithu_Tech.pdf" className="button" target="_blank" rel="noopener noreferrer">Download Resume</a>
+                <a href={`${process.env.PUBLIC_URL}/Dithu_Tech.pdf`} download="Dithu_Tech.pdf" className="button" target="_blank" rel="noopener noreferrer">Download Resume</a>
 
                 <blockquote>"Simplicity is the ultimate sophistication." &mdash; Leonardo da Vinci</blockquote>
             </div>
