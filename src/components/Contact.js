@@ -76,8 +76,8 @@ function Contact() {
                         transition={{ delay: 0.6 }}
                     >
                         <motion.a
-                            href="/AadhithyaBharathi__cg.pdf"
-                            download
+                            href="/Dithu_Tech.pdf"
+                            download="Dithu_Tech.pdf"
                             className="cta-button"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}

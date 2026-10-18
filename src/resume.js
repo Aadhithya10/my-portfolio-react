@@ -169,7 +169,7 @@ function Resume() {
                 </div>
 
                 <br /><br />
-                <a href="AadhithyaBharathi__cg.pdf" download className="button" target="_blank">Download Resume</a>
+                <a href="/Dithu_Tech.pdf" download="Dithu_Tech.pdf" className="button" target="_blank" rel="noopener noreferrer">Download Resume</a>
 
                 <blockquote>"Simplicity is the ultimate sophistication." &mdash; Leonardo da Vinci</blockquote>
             </div>
